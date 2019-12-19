@@ -1,0 +1,10 @@
+<h3>Satellite Counts:</h3>
+<div class="counts">
+   <div>Total: <span> {{ satellites.length }} </span></div>
+   <div>Space Debris: <span> {{ getCountsByType('space debris') }} </span></div>
+   <div>Communication: <span> {{ getCountsByType('communication') }} </span></div>
+   <div>Probe: <span> {{ getCountsByType('probe') }} </span></div>
+   <div>Positioning: <span> {{ getCountsByType('positioning') }} </span></div>
+   <div>Space Station: <span> {{ getCountsByType('space station') }} </span></div>
+   <div>Telescope: <span> {{ getCountsByType('telescope') }} </span></div>
+</div>
